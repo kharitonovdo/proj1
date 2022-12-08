@@ -59,6 +59,7 @@ class Example(QMainWindow, Ui_MainWindow):
         self.size = random.randint(10, 100)
         self.color = (255, 255, 0)
         self.flag = True
+
         self.update()
 
     def paintEvent(self, event):
